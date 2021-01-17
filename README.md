@@ -1,1 +1,1 @@
-# audio-events-detection
+# Audio Events Detection
