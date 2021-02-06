@@ -9,7 +9,7 @@
 train_data = cell(1, numel(training_xml));
 
 for i = 1 : numel(training_xml)
-    filename = strcat('training/',training_xml(i).name);
+    filename = strcat(training_xml(i).folder, '/',training_xml(i).name);
     train_data{i} = xml2mat(filename);
 end
 
